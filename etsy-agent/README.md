@@ -6,9 +6,9 @@ A powerful Go application for scraping and analyzing product data from Etsy. Thi
 
 ```mermaid
 graph TD
-    A["Scraper<br/>(scraper/")"] --> B["Model<br/>(model/")"]
-    B --> C["Analyzer<br/>(analyzer/")"]
-    C --> D["Main<br/>(main.go)"]
+    A[Scraper (scraper/)] --> B[Model (model/)]
+    B --> C[Analyzer (analyzer/)]
+    C --> D[Main (main.go)]
     D -->|Orchestrates| A
 ```
 
